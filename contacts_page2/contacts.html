@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.4, minimum-scale=0.9">
+    <link rel="icon" href="../icons/castle.png">
+    <title>Контакты</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style_page2.css">
+</head>
+<body>
+    <section class="top" id="up">
+        <header>
+            <div class="icon">
+                <a href="#">ShantyTowns</a>
+            </div>
+            <nav>
+                <a class="glavnaya" href="../index.html">Главная</a>
+                <a class="uslugi" href="#">Наши услуги</a>
+                <a class="proNas" href="#">О компании</a>
+                <a class="otzivi" href="#">Отзывы</a>
+                <a class="kontakti" href="#">Контакты</a>
+            </nav>
+            <div class="menu-button"></div>
+        </header>
+        <div class="center">
+            <div class="middle">
+                <h1>Неизведанный Верхний Нахлобуч</h1>
+                <p>ShantyTowns - контора незабываемых ощущений</p>
+                <span>-Контакты-</span>
+            </div>
+        </div>
+    </section> 
+    <main>
+        <section class="information">
+            <h2>КОНТАКТЫ</h2>
+            <p>  
+                Мы – особенные люди. Ведь мы не только смогли выжить в условиях Верхнего Нахлобуча, но и искренне полюбили этот 
+                город и живущих в нем людей. Ведь если они бьют – значит любят. А нас с самого детства очень любили все. 
+            </p>    
+            <p>
+                И теперь мы хотим поделиться этой любовью с вами. Мы <i>покажем*</i> вам самые укромные уголки нашего незабываемого города.
+                После наших экскурсий вы ощутите себя живым как никогда до этого! С иной точки взглянете на свои возможности. 
+                Только задумайтесь – обычно вы ногами ходите. Всего лишь ходите. А здесь вы поймете, что ноги – это очень важно. 
+                Они могут спасти вам здоровье и сохранить деньги в кошельке! Когда вы бежите. Очень-очень-очень быстро бежите. 
+                Разве это не прекрасно? И для этого всего лишь нужно зайти на территорию Верхненахлобучского ПТУ. 
+                Благодаря специфике нашего города, экскурсии могут рассматриваться как самый широкий спектр досуга. Это оздоровительный 
+                (в большинстве случаев), образовательный, жизнеутверждающий и, не побоимся этого слова, экзистенциональный опыт. 
+                Не упустите свой шанс стать лучше!
+            </p> 
+            <p>
+                <i>*Покажем</i> – это не значит, что мы с вами туда пойдем. Потому вам желательно иметь начальную спортивную 
+                подготовку или хотя бы что-то тяжелое. На всякий случай.
+            </p>
+        </section>
+        <section class="contacts">
+            <div class="bosses">
+                <div class="boss">
+                    <div><img src="../images/PfG2LtAKzMA.jpg" alt="саня"></div>
+                    <div class="b1">
+                        <h3>Саня Рыбальников</h3>
+                        <p>директор</p>
+                        <p>По всем вопросам пишите на почту: 
+                           <a href="#">ryba@chonahlobuch.ru</a>     
+                        </p>
+                    </div>
+                </div>
+                <div class="boss">
+                    <div><img src="../images/ggDJVOlh2Xk.jpg" alt="лена"></div>
+                    <div class="b1">
+                        <h3>Лена Пенина</h3>
+                        <p>руководитель корпоративного отдела</p>
+                        <p>По вопросам платных ништяков пишите на почту: 
+                            <a href="#">lenapena@chonahlobuch.ru</a>   
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="filling">
+                <div class="contact-info">
+                    <div>
+                        <img class="info" src="../icons/placeholder.png" alt="метка">
+                        <p>
+                            г.Верхний Нахлобуч,<br> 
+                            ул. Летнего удушья, д.8,
+                            3й подъезд
+                        </p>
+                    </div>
+                    <div>
+                        <img class="info" src="../icons/mail.png" alt="емайл">
+                        <p> 
+                            E-mail:<br>
+                            cho@nahlobuch.ru
+                        </p> 
+                    </div> 
+                    <div>
+                        <img class="info" src="../icons/telephone.png" alt="телефон">  
+                        <p>    
+                            Телефон:<br>
+                            8800 555 5552
+                        </p> 
+                    </div>
+                </div>
+                <div>
+                    <form id="form" action="../ajax/post_message.php" method="POST">
+                        <p>Напишите нам</p>
+                        <input type="text" id="name" name="name" placeholder="ФИО" maxlength="40" required><br>
+                        <input type="text" id="mail" name="E-mail" placeholder="E-mail"  maxlength="30" required><br>
+                        <textarea name="long-text" id="message" cols="30" rows="5" placeholder="Ваше сообщение"></textarea><br>
+                        <input type="submit" id="send" value="отправить">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>    
+    <div class="map"></div>
+    <footer>
+        <section class="foot">
+            <div class="blocks">
+                <div class="ShantyTowns">
+                    <div class="icon">
+                        <a href="#">ShantyTowns</a>
+                    </div>
+                    <p>
+                        Мы приглашаем тебя на самые разнообразные экскурсии
+                        по Вернему Нахлобучу. Автобусные и пешеходные,
+                        на целый день или на несколько часов, на свежем 
+                        воздухе или с заходом в здания - у нас в ассортименте
+                        более 20 авторских экскурсий по Верхнему Нахлобучу, 
+                        выбирай и узнавай наш город вместе с нами!
+                    </p>
+                </div>
+            </div>
+            <div class="blocks">
+                <div class="contacts">
+                    <h3><span>Контакты</span></h3>
+                    <p>
+                        <img class="p2" src="../icons/placeholder.png" alt="метка">
+                        г.Верхний Нахлобуч, 
+                        пер. Дачный, д.17,
+                        3й подъезд
+                    </p>
+                    <p>   
+                        <img class="p2" src="../icons/mail.png" alt="емайл"> 
+                        cho@nahlobuch.ru
+                    </p> 
+                    <p>   
+                        <img class="p2" src="../icons/telephone.png" alt="телефон"> 
+                        8800 555 5552
+                    </p> 
+                </div>
+            </div>
+            <div class="blocks">
+                <div class="news">
+                    <h3><span>Последние новости</span></h3>
+                    <p>
+                        Я календарь переверну, и снова 3е сентября.
+                        Смотри какие вас ждут мероприятия в один из самых почитаемых
+                        дней в году! Поторопись!
+                        <a class="n1" href="#">3 сентября 2018 г.</a>
+                    </p>
+                    <p>
+                        Нас уже более 1000! Присоединяйся!
+                        <a class="n1" href="#">14 августа 2018 г.</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <a href="#up" class="buttonup"></a>
+        <div class="subfooter">
+            <div class="wrap">
+                <div class="rights">&copy; 2018 Copiright. Все права защищены.</div>
+                <div class="design">Design by Dorothy</div>
+                <div class="social">
+                    <a class="social-item" href="#"><img src="../social/vk.png" alt=""></a>
+                    <a class="social-item" href="#"><img src="../social/facebook.png" alt=""></a>
+                    <a class="social-item" href="#"><img src="../social/instagram.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
